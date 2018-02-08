@@ -1,0 +1,152 @@
+*
+{
+	box-sizing: border-box;
+}
+
+*:focus
+{
+	outline: none;
+}
+
+*:active
+{
+	cursor: default;
+}
+
+body
+{
+	background: #171717;
+
+	font: normal 14px 'Roboto', sans-serif;
+	color: white;
+
+	margin: 0;
+
+	overflow: hidden;
+}
+
+a
+{
+	color: #43A6DF;
+}
+
+a:hover
+{
+	text-decoration: underline;
+}
+
+h1
+{
+	font: 100 32px 'Roboto', sans-serif;
+
+	margin-top: 0px;
+	margin-bottom: 20px;
+}
+
+h2
+{
+	font: 300 24px 'Roboto', sans-serif;
+	color: gray;
+
+	margin-top: 0px;
+	margin-bottom: 5px;
+}
+
+h3
+{
+	font: normal 14px 'Roboto', sans-serif;
+	color: gray;
+
+	margin-top: 0px;
+	margin-bottom: 20px;
+}
+
+h1:last-child, h2:last-child, h3:last-child
+{
+	margin-bottom: 0px;
+}
+
+.inlineBlock
+{
+	display: inline-block;
+}
+
+.roundedIcon
+{
+	border-radius: 5px;
+
+	background: #272727;
+
+	text-align: center;
+	font-size: 20px !important;
+
+	width: 43px;
+
+	padding: 10px;
+}
+
+.roundedIcon:not(:last-child)
+{
+	margin-right: 5px;
+}
+
+.roundedIcon:hover
+{
+	background: #626262;
+}
+
+.roundedIcon:active
+{
+	background: #676767;
+}
+
+.hidden
+{
+	display: none;
+}
+
+.center
+{
+	text-align: center;
+}
+
+.right
+{
+	float: right;
+}
+
+.underline
+{
+	text-decoration: underline;
+}
+
+.line
+{
+	position: absolute;
+
+	background: #070707;
+
+	height: 3px;
+
+	z-index: 99991;
+}
+
+.spaceBottomVerySmall
+{
+	margin-bottom: 5px !important;
+}
+
+.spaceBottomSmall
+{
+	margin-bottom: 10px !important;
+}
+
+.spaceBottomMedium
+{
+	margin-bottom: 20px !important;
+}
+
+.spaceRightSmall
+{
+	margin-right: 10px !important;
+}

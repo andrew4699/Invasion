@@ -1,0 +1,67 @@
+#connect
+{
+	position: absolute;
+	top: 10%;
+	left: calc(50% - 150px);
+
+	width: 300px;
+}
+
+#connect > h1
+{
+	border-bottom: 7px solid white;
+
+	background: #272727;
+
+	text-transform: uppercase;
+	color: white;
+
+	padding: 10px;
+	margin-bottom: 0px;
+}
+
+#connect > div
+{
+	background: lightgray;
+
+	padding: 10px;
+}
+
+#connect input
+{
+	border: none;
+
+	background: white;
+
+	width: 100%;
+
+	padding: 7px 5px;
+	padding-left: 10px;
+
+	margin-bottom: 5px;
+}
+
+#connect button
+{
+	border: none;
+
+	background: #2578CF;
+
+	width: 100%;
+
+	color: white;
+
+	padding: 10px;
+
+	transition: background 0.2s;
+}
+
+#connect button:hover
+{
+	background: #1E65B0;
+}
+
+#connect button:disabled
+{
+	background: #7CCAF7;
+}

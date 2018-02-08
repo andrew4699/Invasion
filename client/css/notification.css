@@ -1,0 +1,43 @@
+#notifications
+{
+	position: absolute;
+	top: 20px;
+	left: 20px;
+}
+
+#notifications > div
+{
+	border-left: 7px solid #515A81;
+
+	background: white;
+
+	color: #515A81;
+
+	width: 300px;
+
+	padding: 20px;
+	margin-bottom: 20px;
+
+	/*box-shadow: rgba(0, 0, 0, 0.25) 3px 3px;*/
+}
+
+#notifications > div.error
+{
+	border-left-color: #AA3939;
+
+	color: #AA3939;
+}
+
+#notifications > div.success
+{
+	border-left-color: #3C7E5B;
+
+	color: #3C7E5B;
+}
+
+#notifications > div.warning
+{
+	border-left-color: #B38355;
+
+	color: #B38355;
+}

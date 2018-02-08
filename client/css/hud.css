@@ -1,0 +1,49 @@
+#hud > div
+{
+	position: absolute;
+
+	background: #272727;
+
+	font-weight: 100;
+	font-size: 24px;
+	color: white;
+
+	padding: 10px 15px;
+}
+
+#health
+{
+	bottom: 5%;
+	left: 5%;
+}
+
+#health > div, #ammo > div
+{
+	width: 80px;
+}
+
+#health i, #ammo i
+{
+	float: left;
+
+	font-size: 30px;
+	color: #AA3939;
+}
+
+#health > div > span, #ammo > div > span
+{
+	float: right;
+}
+
+#ammo
+{
+	bottom: 5%;
+	right: 5%;
+}
+
+#ammo-clipsize-value
+{
+	font-weight: 300;
+	font-size: 16px;
+	color: #43A6DF;
+}
